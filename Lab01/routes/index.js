@@ -16,6 +16,11 @@ async function router(fastify){
         return res
     })
 
+    fastify.get('/', async (req, res) => {
+        res.redirect('/home')
+        return res
+    })
+
     fastify.post('/download', async (req, res) => {
         try {
             const { imageLink, imageName } = req.body
