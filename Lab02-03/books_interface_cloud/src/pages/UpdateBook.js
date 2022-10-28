@@ -29,7 +29,7 @@ function UpdateBook(){
                 console.error(err)
             }
         })()
-    }, [])
+    }, [id])
 
     const handleSubmit = async (e) => {
         e.preventDefault()

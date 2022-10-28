@@ -1,4 +1,4 @@
-#!/home/lawrencium103/Desktop/booksApi/.venv/bin/python3
+#!/home/lawrencium103/Facultate/Anul-3/Semestrul-1/CC/Lab02-03/booksApi/.venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
