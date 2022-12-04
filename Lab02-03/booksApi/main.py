@@ -1,4 +1,3 @@
-from bson import ObjectId
 from flask import Flask, request, jsonify
 from pymongo import MongoClient
 from flask_cors import CORS, cross_origin
@@ -87,6 +86,6 @@ def update_book_by_id(_id):
 
 if __name__ == '__main__':
     app.run(
-        host='0.0.0.0',
-        port=8081
+        debug=True,
+        host='0.0.0.0'
     )
